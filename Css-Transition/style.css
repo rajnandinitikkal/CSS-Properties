@@ -1,0 +1,62 @@
+div{
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    background-color: rgb(165, 43, 226);
+    transition: height 0.3s;
+    margin-left: 30px;
+    padding: 10px;
+    color: white;
+}
+div:hover{
+height: 150px;
+width: 150px;
+}
+
+#ease-in{
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    background-color: rgb(165, 43, 226);
+    margin-left: 30px;
+    padding: 10px;
+    color: white;
+    transition-timing-function: ease;
+    margin-top: 20px;
+}
+#ease-in:hover{
+    height: 150px;
+width: 150px;
+}
+
+#ease-out{
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    background-color: rgb(165, 43, 226);
+    margin-left: 30px;
+    padding: 10px;
+    color: white;
+    transition-timing-function: ease-out;
+    margin-top: 20px;
+}
+#ease-out:hover{
+    height: 150px;
+width: 150px;
+}
+
+#linear{
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    background-color: rgb(165, 43, 226);
+    margin-left: 30px;
+    padding: 10px;
+    color: white;
+    transition-timing-function: ease;
+    margin-top: 20px;
+}
+#linear:hover{
+    height: 150px;
+width: 150px;
+}
